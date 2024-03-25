@@ -18,3 +18,11 @@ c/**/*
 ## scala
 scala/**/project
 scala/**/target
+
+## maven
+maven/**/target
+
+## nodejs
+node/**/node_modules
+node/**/package_lock.json
+
