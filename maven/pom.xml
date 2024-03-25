@@ -1,6 +1,6 @@
 <project>
     <groupId>com.moon</groupId>
-    <aritifactId>HelloWorld</artifactID>
+    <artifactId>HelloWorld</artifactId>
     <modelVersion>4.0.0</modelVersion>
     <version>1.0</version>
     <packaging>jar</packaging>
@@ -8,7 +8,7 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <aritifactId>maven-complier-plugin</aritifactId>
+                <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.7.0</version>
                 <configuration>
                     <source>1.8</source>
@@ -17,7 +17,7 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <aritifactId>maven-jar-plugin</aritifactId>
+                <artifactId>maven-jar-plugin</artifactId>
                 <version>3.0.2</version>
                 <configuration>
                     <archive>
