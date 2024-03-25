@@ -1,7 +1,7 @@
-# .env
+## .env
 .env
 
-# c
+## c
 c/*
 c/*.o
 c/**/*
@@ -24,5 +24,8 @@ maven/**/target
 
 ## nodejs
 node/**/node_modules
-node/**/package_lock.json
+node/**/package-lock.json
 
+## python venv 
+python/**/.venv
+python/**/__pycache__/
